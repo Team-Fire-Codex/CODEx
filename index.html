@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="ItsOkayItsOfficial">
+    <link rel="shortcut icon" href="assets/img/logo.png">
+
+    <title>CODEx</title>
+
+    <!-- Bootstrap CSS 3.3.7 -->
+    <link rel="stylesheet" href="https://bootswatch.com/simplex/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Search & zip -->
+  <nav class="site-nav active">
+    <img class="navbar-brand" src="assets/img/owl_logo_1.svg">
+    <form class="navbar-form navbar-center">
+      <div for="searchInput" class="form-group">
+        <input id="searchInput" type="text" class="form-control" placeholder="Search..">
+      </div>
+      <button id="searchButton" type="submit" class="btn btn-default">Search</button>
+        <div class='form-group' id= 'zipForm'>
+          <input type="text" class="form-control" placeholder="Your Zip Code.." id='userZip'>
+        </div>
+      <button class="btn btn-default" type="submit" id='zipSearch'>Go!</button>
+
+      <div class="btn-group" id='chosenZip'>
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"  id='zipHolder'>
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a id='changeZip'>Change Zip Code</a></li>
+          </ul>
+      </div>
+    </form>
+  </nav>
+    <!-- /Search & zip -->
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Content Container -->
+      <div id="contentContainer">
+
+          <!-- Search Tabs -->
+        <ul id="myTab" class="nav nav-tabs">
+
+        </ul>
+          <!-- /Search Input Tabs  -->
+
+          <!-- Search Content -->
+        <div id="myTabContent" class="tab-content">
+
+        </div>
+          <!-- /Search Content -->
+
+      </div>
+      <!-- /Content Container -->
+  </div>
+    <!-- /Main Container -->
+
+    <!--Quiz Sidebar  -->
+    <div class="sidebar-container">
+      <nav class="sidebar sidebar-left">
+        <h3>Quizzes</h3>
+          <a href='#'><div class = 'quiz' id = 'HTML_Quiz'>HTML-GIT</div></a>
+          <a href='#'><div class = 'quiz' id = 'CSS_Quiz'>CSS-Bootstrap</div></a>
+          <a href='#'><div class = 'quiz' id = 'Javascript_Quiz'>Javascript</div></a>
+          <a href='#'><div class = 'quiz' id = 'jQuery_Quiz'>Jquery</div></a>
+          <a href='#'><div class = 'quiz' id = 'AJAX_Quiz'>AJAX</div></a>
+          <a href='#'><div class = 'quiz' id = 'Node_Quiz'>Node</div></a>
+          <a href='#'><div class = 'quiz' id = 'mySQL_Quiz'>MySQL</div></a>
+          <a href='#'><div class = 'quiz' id = 'Express_Quiz'>Express</div></a>
+          <a href='#'><div class = 'quiz' id = 'MongoDB_Quiz'>MongoDB</div></a>
+          <a href='#'><div class = 'quiz' id = 'ReactJS_Quiz'>ReactJS</div></a>
+          <a href='#'><div class = 'quiz' id = 'Java_Quiz'>Java</div></a>
+          <a href='#'><div class = 'quiz' id = 'CS_Quiz'>Computer Science</div></a>
+          <a href='#'><div class = 'quiz' id = 'Python_Quiz'>Python</div></a>
+          <a href='#'><div class = 'quiz' id = 'CSharp_Quiz'>C#</div></a>
+      </nav>
+    </div>
+    <!-- /Quiz Sidebar  -->
+
+    <!-- Google ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Moment JS  -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <!-- Codepen JS  -->
+    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

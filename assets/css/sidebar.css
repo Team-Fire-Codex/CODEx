@@ -1,0 +1,73 @@
+/*
+* Author: Project #1 Fire
+* Project Name: Project Fire Sidbar CSS
+* Version: Initialzed
+* Date: 08.29.17
+* URL: github.com/itsokayitsofficial/project1/
+*/
+
+html,
+body {
+    width: 100%;
+}
+
+.sidebar {
+    background: #47a3da;
+    position: fixed;
+    width: 10px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.sidebar h3 {
+    color: #afdefa;
+    font-size: 1.9em;
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+    background: #0d77b6;
+}
+
+.sidebar a {
+    display: block;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 300;
+    border-bottom: 1px solid #258ecd;
+    padding: 1em;
+}
+
+.sidebar a:hover {
+    background: #258ecd;
+}
+
+.sidebar a:active {
+    background: #afdefa;
+    color: #47a3da;
+}
+
+.sidebar-container {
+    width: 100%;
+}
+
+.open {
+    width: 240px;
+    -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.sidebar-left {
+    left: 0;
+}
+
+.sidebar-right {
+    right: 0px;
+}
