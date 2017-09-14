@@ -20,6 +20,31 @@ body {
 iframe {
 	border: 0;
 }
+.logo {
+	height: 100px;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0);
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.logo.active {
+	top: 30%;
+	background-color: rgba(0, 0, 0, 0);
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.name-logo {
+	top: 38%;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+}
 
 /*=============================================
 Sitenav
