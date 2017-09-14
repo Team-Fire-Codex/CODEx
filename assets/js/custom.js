@@ -237,6 +237,7 @@ function searchTab() {
     sideBar.append(meetUpHeader);
     searchTab.append(sideBar);
 
+    //create div to place youtube api call in and add codepen to content div
     codepen.css({'height': '300px', 'width': '80%', 'text-align': 'center', 'margin': '0px 10% 0px 10%'})
     var vids = $('<div>');
     vids.attr('id', topic + 'video');
@@ -383,13 +384,13 @@ function insertQuestion (question){
   }
 //Creates Submit/Reset button  
   var quizSubmit = $('<button>');
-  quizSubmit.attr('id', 'quizSubmit');
+  quizSubmit.addClass('quizSubmit');
   quizSubmit.text('Submit');
   quizSubmit.append($('<br>'));
   quizSubmit.attr('href', '#top');
   $('#' + topic).append(quizSubmit);
   var resetButton = $('<button>')
-  resetButton.attr('id', 'resetButton');
+  resetButton.addClass('resetButton');
   resetButton.text('Reset');
   $('#' + topic).append(resetButton)
   resetButton.hide();
@@ -444,7 +445,7 @@ $(document).on('click', '.answer1, .answer2, .answer3', function() {
   $(this).addClass('incorrect');
 });
 //On submit button click
-$(document).on('click', '#quizSubmit', function() {
+$(document).on('click', '.quizSubmit', function() {
 //resets correct to zero
   correct = 0;
 //removes result DIV
@@ -469,14 +470,14 @@ $(document).on('click', '#quizSubmit', function() {
     resultsDiv.attr('id', 'results');
     resultsDiv.text('You got ' + correct + '/10 correct!')
     $(this).parent().append(resultsDiv);
-    $('#quizSubmit').hide();
-    $('#resetButton').show();
+    $('.quizSubmit').hide();
+    $('.resetButton').show();
     $('#results').show();
     $("html, body").animate({ scrollTop: 0 }, "slow");
     return false;
 });
 //On reset button click, goes through answer divs and removes all classes
-$(document).on('click', '#resetButton', function() {
+$(document).on('click', '.resetButton', function() {
   $(this).parent().children().find('div').each(function(){
     $(this).removeClass('correctStatus')
     $(this).removeClass('correct')
@@ -484,9 +485,11 @@ $(document).on('click', '#resetButton', function() {
     $(this).removeClass('incorrect')
   });
 //Shows submit button, hides results, hides reset button
-    $('#quizSubmit').show();
+    $('.quizSubmit').show();
     $('#results').remove();
-    $('#resetButton').hide();
+    $('.resetButton').hide();
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+    return false;
 });
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 //-------------------------------------------------------------------Quiz objects-------------------------------------------------------------------------------------//

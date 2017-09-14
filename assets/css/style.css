@@ -263,7 +263,7 @@ iframe {
   font-size:16px;
 }
 
-#quizSubmit, #resetButton {
+.quizSubmit, .resetButton {
   width:30%;
   margin-left: 300px;
   height:45px;
