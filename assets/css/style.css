@@ -281,6 +281,10 @@ iframe {
     padding: 10px;
 }
 
+.sidebar-left a {
+  height:61px
+}
+
 #userZip {
   background-color: #353839;
 }
