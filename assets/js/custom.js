@@ -72,7 +72,7 @@ var youTubeKey = "AIzaSyC4tz1TDHpgGTkAyNR9ycjU0cixA6bDNnk";
 var videoSearch = '';
 //----------------------------------------------------------YouTube API-------------------------------------------------------------------------------------// 
 let getYouTube = function(){
-  videoSearch = tubeURL + "search?&q=" + topic + '%20coding%20tutorial' + "&part=snippet&chart=mostPopular&videoCategoryId=27&type=video&relevanceLanguage=en&maxResults=1&key=" + youTubeKey;
+  videoSearch = tubeURL + "search?&q=" + topic + '%20tutorial' + "&part=snippet&chart=mostPopular&videoCategoryId=27&type=video&relevanceLanguage=en&maxResults=1&key=" + youTubeKey;
   var youtubeId = $('#' + topic + 'video');
 
   $.ajax({
