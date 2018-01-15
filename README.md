@@ -1,6 +1,7 @@
 ![CODEx](./assets/img/name_logo_1.svg)
 
 ## <p align='center'>Value Proposition Statement </p>
+<br>
 **Bootcamp CODEx** is a powerful, flexible, and highly scalable tool that can be used to retrieve and filter learning and networking content specifically geared toward bootcamp students and curricula.
 <br>
 <br>
