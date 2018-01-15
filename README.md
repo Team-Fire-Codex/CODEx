@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ![CODEx](./assets/img/name_logo_1.png)
-=======
-![Codex](./assets/img/name_logo_1.svg)
->>>>>>> ac993b3ad8b43b0a095461a274f819078abfebce
 
 ## <p align='center'>Value Proposition Statement </p>
 <br>
