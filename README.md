@@ -1,4 +1,4 @@
-![CODEx](./assets/img/name_logo_1.svg)
+![CODEx](./assets/img/name_logo_1.png)
 
 ## <p align='center'>Value Proposition Statement </p>
 <br>
