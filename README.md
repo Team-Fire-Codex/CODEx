@@ -1,4 +1,4 @@
-![CODEx](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyODgu%0D%0AMDUgMTUwLjYzIj48ZGVmcz48c3R5bGU+LmF7Zm9udC1zaXplOjEwMHB4O2ZpbGw6I2QzMDUwNTtm%0D%0Ab250LWZhbWlseTpDb3VyaWVyTmV3UFMtQm9sZE1ULCBDb3VyaWVyIE5ldztmb250LXdlaWdodDo3%0D%0AMDA7fS5ie2ZvbnQtc2l6ZTo4MHB4O308L3N0eWxlPjwvZGVmcz48dGl0bGU+bmFtZV9sb2dvXzE8%0D%0AL3RpdGxlPjx0ZXh0IGNsYXNzPSJhIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDk5LjU5KSI+Q09E%0D%0ARTx0c3BhbiBjbGFzcz0iYiIgeD0iMjQwLjA0IiB5PSIwIj54PC90c3Bhbj48L3RleHQ+PC9zdmc+)
+<img src='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288.05 150.63"><defs><style>.a{font-size:100px;fill:#d30505;font-family:CourierNewPS-BoldMT, Courier New;font-weight:700;}.b{font-size:80px;}</style></defs><title>name_logo_1</title><text class="a" transform="translate(0 99.59)">CODE<tspan class="b" x="240.04" y="0">x</tspan></text></svg>/>
 
 ## <p align='center'>Value Proposition Statement </p>
 <br>
