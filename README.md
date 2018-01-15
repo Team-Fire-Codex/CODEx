@@ -12,8 +12,8 @@ While coding bootcamp’s are built to serve those with little to no knowledge o
 <br>
 
 ---
-
 <br>
+
 ## Features:
 * Search parameters, subjects, resources and content as specified by either the bootcamp student or curriculum provider.
 * Infinite and OpenSource scalability through a flexible API, friendly back-end, and responsive front-end.
